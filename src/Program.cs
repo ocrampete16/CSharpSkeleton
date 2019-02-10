@@ -10,8 +10,10 @@ namespace CSharpSkeleton
         }
     }
 
-    public class HelloWorld {
-        public string Greet(string name){
+    public class HelloWorld
+    {
+        public string Greet(string name)
+        {
             return $"Hello {name}!";
         }
     }

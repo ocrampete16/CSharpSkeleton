@@ -9,4 +9,10 @@ namespace CSharpSkeleton
             Console.WriteLine("Hello World!");
         }
     }
+
+    public class HelloWorld {
+        public string Greet(string name){
+            return $"Hello {name}!";
+        }
+    }
 }

@@ -1,3 +1,4 @@
+using CSharpSkeleton;
 using NUnit.Framework;
 
 namespace Tests
@@ -12,7 +13,8 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            HelloWorld helloWorld = new CSharpSkeleton.HelloWorld();
+            Assert.AreEqual("Hello Alice!", helloWorld.Greet("Alice"));
         }
     }
 }
